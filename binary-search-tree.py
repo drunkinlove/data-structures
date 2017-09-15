@@ -6,7 +6,7 @@ class Node:
     always smaller.
     (This is only true if tree's order relation is a total order.
     Which it is, because the tree is constructed that way by the program,
-    and not provided in advance by some jerk who just had to screw it up.
+    and not provided in advance by some jerk who just had to screw it up.)
 
     Due to all of the algorithms being implemented as methods, if we want
     to perform an algorithm on the whole tree, 
