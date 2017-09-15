@@ -149,7 +149,7 @@ class Node:
                     parent.left = successor.right
                 else:
                     # else, if we could not find any nodes to the left of the 
-                    # one to the right of the one we're removing...
+                    # one to the right to the one we're removing...
                     # meaning, the child of the node being removed only has
                     # children to the right. 
                     # THEN, we replace the removed node with the one to the
