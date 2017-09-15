@@ -44,7 +44,7 @@ class Node:
     def search(self, value):
         """
         Iterative search in the (sub)tree for the node with specified value,
-        from the node to the bottom of the tree.
+        from the self node to the bottom of the tree.
         """
         current_node = self
         while current_node != None:
@@ -182,7 +182,7 @@ class Node:
 
     def __str__(self):
         """
-        A method to print info about a node. 
+        A private method for printing info about a node. 
         """
         if self.childrencount(self.value) == 0:
             return("A node with value %s." % str(self.value))
