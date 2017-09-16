@@ -225,5 +225,5 @@ print("These are the elements left in the tree:")
 root.traverse()
 input()
 input("Whew.\n")
-print("Alright, that's enough playing with binary trees. Please feel free to"
+print("Alright, that's enough playing with binary trees. Please"
     " return to your daily duties. Thank you for attention!")
