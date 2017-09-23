@@ -8,8 +8,7 @@ class Node:
     Which it is, because the tree is constructed that way by the program,
     and not provided in advance by some jerk who just had to screw it up.)
 
-    Due to all of the algorithms being implemented as methods, if we want
-    to perform an algorithm on the whole tree, 
+    If we want to perform an algorithm on the whole tree, 
     we should invoke the method on the root.
     """
 
