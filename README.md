@@ -1,5 +1,5 @@
 # data-structures
-Attempts to implement basic data structures.
+Attempts to recreate basic data structures.
 
 binary-search.py is a binary search engine recreation. Uses sorting.py as a module.
 
